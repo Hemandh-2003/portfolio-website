@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^8.0.1",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
